@@ -1,0 +1,78 @@
+.navBar{
+    display : flex;
+    flex-direction : row;
+    justify-content : center;
+    align-items : center;
+    gap : 20%;
+    background-color : #fed342;
+    width : 100vw;
+  }
+    @media screen and (max-width: 992px) {
+      .navBar{
+        gap : 40%;
+      }
+    }
+  .logo{
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : center;
+    gap : 10px;
+  }
+  .heading{
+    font-weight : normal;
+    font-size :  large;
+    color : #292929;
+  }
+  .hamButton{
+    border-radius : 10px;
+    box-shadow : 4px 4px;
+  }
+  .hamButton:hover{
+    cursor : pointer;
+    text-decoration : underline;
+    color : black;
+  
+  }
+  .img {
+    border-radius : 100%;
+    object-fit : cover;
+    }
+   
+    
+  .linksObject{
+    border : solid;
+    border-width : 1px;
+    border-radius : 30px;
+    padding : 3px;
+    box-shadow : 3px 3px;
+    background-color : #fed342
+    }
+    .links {
+      display : flex;
+      flex-direction : row;
+      gap : 10%;
+    }
+    @media screen and (max-width: 992px) {
+     .links {
+      display : none;
+      flex-direction : column;
+      gap : 8px;
+      align-items : center;
+      background-color : #81DAE3;
+      padding : 10px;
+      position : fixed;
+      top: 78px;
+    }
+    .showLinks{
+      display: flex;
+      flex-direction : column;
+      gap : 8px;
+      align-items : center;
+      background-color : #81DAE3;
+      padding : 10px;
+      position : fixed;
+      top: 78px;
+    }
+    }
+  
